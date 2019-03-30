@@ -1,0 +1,53 @@
+{
+  "name": "eslint-config-strajk",
+  "version": "0.0.1",
+  "description": "Personal ESLint configuration",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "homepage": "https://github.com/strajk/eslint-config-strajk#readme",
+  "bugs": {
+    "url": "https://github.com/strajk/eslint-config-strajk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strajk/eslint-config-strajk.git"
+  },
+  "license": "MIT",
+  "author": "Strajk",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "mocha": "^6.0.2",
+    "vue-eslint-parser": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-standard-pkg",
+        {
+          "exclude": [
+            "__tests__/**/*"
+          ]
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "@pika/plugin-standard-pkg": "^0.3.14"
+  }
+}
