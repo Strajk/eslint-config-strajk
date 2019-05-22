@@ -48,6 +48,6 @@
     ]
   },
   "devDependencies": {
-    "@pika/plugin-standard-pkg": "^0.3.14"
+    "@pika/plugin-standard-pkg": "0.3.16"
   }
 }
