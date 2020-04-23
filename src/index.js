@@ -18,5 +18,6 @@ module.exports = {
     }],
     "quotes": ["error", "double"],
     "import/order": "error",
+    "jsx-quotes": ["error", "prefer-double"],
   },
 }
