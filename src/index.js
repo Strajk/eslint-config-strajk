@@ -2,12 +2,12 @@
 // https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base/rules
 
 module.exports = {
+  "root": true,
   "parserOptions": { "ecmaVersion": 2017 },
   "extends": ["standard"],
   "env": {
     "es6": true,
   },
-  "root": true,
   "rules": {
     "comma-dangle": ["error", {
       "arrays": "always-multiline",

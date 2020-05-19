@@ -1,6 +1,6 @@
 module.exports = {
   "extends": [
-    "./index.js"
+    "./index.js",
   ],
   "env": {
     "browser": true,
