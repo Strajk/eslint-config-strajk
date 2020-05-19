@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-strajk",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Personal ESLint configuration",
   "keywords": [
     "eslint",
